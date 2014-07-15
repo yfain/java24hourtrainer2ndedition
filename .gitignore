@@ -1,0 +1,12 @@
+.preview*
+.metadata*
+*.html
+bin*
+RemoteSystems*
+*.jar
+
+### OSX ###
+.DS_Store
+
+
+
