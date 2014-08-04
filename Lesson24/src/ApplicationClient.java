@@ -3,14 +3,16 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
-/**
- * User: maxormo
- */
+
 public class ApplicationClient {
 
   public static void main(String[] args) throws RemoteException, NotBoundException, MalformedURLException {
+    // lookup registered remote server
     Hello remoteServer = (Hello) Naming.lookup("rmi://localhost:4321/hello");
 
-    System.out.println("server says: " + remoteServer.echo("you got me!!! but i am " + remoteServer.getClass().getName()));
+    // executing remote method on server
+    String message = remoteServer.echo("you got me!!! but i am " + remoteServer.getClass().getName());
+
+    System.out.println("server says: " + message);
   }
 }
