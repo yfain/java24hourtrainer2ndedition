@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+
+.menu {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-bar {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-bar .label{
+  -fx-background-color: grey;
+  -fx-text-fill: yellow;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+
+/* the popped up menu of the menuButton is ContextMenu */
+
+.context-menu {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-item {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+
+/*
+Styles adapted from:
+http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
+*/
+
+#fancy-button {
+    -fx-background-color: grey;
+	-fx-font-family: "Times New Roman";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#big-yellow {
+    -fx-background-color:
+        #ecebe9,
+        rgba(0,0,0,0.05),
+        linear-gradient(#dcca8a, #c7a740),
+        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+        linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,5 5 4 5,5,6,7;
+    -fx-background-radius: 30;
+    -fx-padding: 5 10 5 10;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 20px;
+    -fx-text-fill: #311c09;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+#big-yellow Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+#iphone {
+    -fx-background-color:
+        #a6b5c9,
+        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),
+        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%);
+    -fx-background-insets: 0,5 5 4 5,5,6,7;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 5 10 5 10;
+    -fx-text-fill: #242d35;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+#iphone Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );
+}
+
+#green {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+#round-red {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+#shiny-orange {
+    -fx-background-color:
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 5 10 5 10;
+}
