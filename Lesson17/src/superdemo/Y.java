@@ -1,4 +1,6 @@
-// A demo of using super
+package superdemo;
+
+// A demo of using the super keyword
 
 public class Y extends X {
    void a(){

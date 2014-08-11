@@ -1,0 +1,22 @@
+#submitBtn{
+    -fx-background-color: lightskyblue;
+	-fx-font-family:verdana;
+	-fx-font-size:20;
+	-fx-font-weight: bold;
+	-fx-stroke:navy;
+	-fx-font-style:italic;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+.label{
+	-fx-text-fill: red;
+}    
+
+.bluelabel{
+   -fx-text-fill: blue;
+   -fx-font-weight: bold;
+   -fx-font-family:verdana;
+   -fx-font-style:italic;
+}
