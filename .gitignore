@@ -4,7 +4,7 @@
 bin*
 RemoteSystems*
 *.jar
-
+*.iml
 ### OSX ###
 .DS_Store
 
