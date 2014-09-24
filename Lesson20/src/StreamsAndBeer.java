@@ -45,7 +45,7 @@ public class StreamsAndBeer {
             }
         }
 */
-        // Internal processing
+        // Internal processing with lambda
         beers.forEach(brr -> {
                 if ("Belgium".equals(brr.country)){
                     preferredBeers.add(brr);
@@ -58,27 +58,17 @@ public class StreamsAndBeer {
 
         preferredBeers.forEach(pbeer -> System.out.println("Preferred beer name: " + pbeer.name));
 
-        preferredBeers.replaceAll(bee -> {
-            bee.name += " Octoberfest special ";
-            return bee;
-        });
-
-        System.out.println("\nApplied replaceAll+lambda to preferredBeers at Octoberfest:");
-        System.out.println("=====\n");
-        preferredBeers.forEach(pbeer -> System.out.println("Preferred beer name: " + pbeer.name));
-
-        System.out.println("=====  SAMPLES WITH STREAMS =====\n" );
+         System.out.println("=====  SAMPLES WITH STREAMS =====\n" );
 
         // Filtering streams
         americanBeers = beers.stream()                   // Turn a collection into a stream
-                .filter(brr -> "USA".equals(brr.country))  // Intermediate operation filter
+                .filter(brr -> "USA".equals(brr.country))  // Intermediate operation: filter
                 .collect(Collectors.toList());        // Terminal operation to convert a result into a new collection
 
         System.out.println("\nBeer names from americanBeers collection - applied filter country==USA ");
         System.out.println("=====\n");
         americanBeers.forEach(ambr -> System.out.println("American beer name: " + ambr.name));
 
-        /*
 
         // Sorting  the stream
 
@@ -89,6 +79,7 @@ public class StreamsAndBeer {
                 .sorted(Comparator.comparing(b -> b.price))
                 .forEach(System.out::println);
 
+        
 
         // Filter, map, reduce
         OptionalDouble averagePrice = beers.stream()
@@ -119,7 +110,7 @@ public class StreamsAndBeer {
         System.out.println("=====\n");
         americanBeers.forEach(ambr -> System.out.println("American beer name: " + ambr.name));
 
-*/
+
     }
 
       private static boolean isMadeInUSA (Beer b){
