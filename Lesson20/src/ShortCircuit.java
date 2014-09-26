@@ -25,7 +25,7 @@ public class ShortCircuit {
 	    public static void main(String[] args) {
 
 	        //List<Beer> beers = loadCellar();  // load the beer collection
-	    	 List<Beer> beers = new ArrayList();
+	    	 List<Beer> beers = new ArrayList<>();
 	        
 	        
 	        LongStream evenNumbers = LongStream

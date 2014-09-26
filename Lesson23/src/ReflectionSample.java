@@ -1,4 +1,4 @@
-import reflection.*;
+
 import java.lang.reflect.*;
 public class ReflectionSample {
 	

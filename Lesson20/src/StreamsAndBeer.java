@@ -34,8 +34,6 @@ public class StreamsAndBeer {
         List<Beer> beers = loadCellar();                  // populate the beer collection
         List<Beer> preferredBeers = new ArrayList<>();    // I like Belgium beers
         List<Beer> americanBeers = new ArrayList<>();     // Some like American beers
-        List<Beer> expensiveAmericanBeers = new ArrayList<>();     // Some like expensive American beers
-
 
         // External processing
 /*        for(Beer beer: beers){
