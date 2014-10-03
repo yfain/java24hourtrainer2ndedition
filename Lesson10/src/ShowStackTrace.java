@@ -7,6 +7,7 @@ public class ShowStackTrace {
 
     public static void main(String[] args)
     {
+       // Produces two line stack trace	
        ShowStackTrace.divideByZero();
     }
 }

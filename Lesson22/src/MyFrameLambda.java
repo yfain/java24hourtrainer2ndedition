@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 
 public class MyFrameLambda  extends JFrame{
 
