@@ -20,7 +20,7 @@ Table of Contents
 12. Generics
 13. Lambda Expressions and Functional Programming
 14. Working with I/O Streams
-15.Java Serialization
+15. Java Serialization
 16. Network Programming Basics
 17. Introduction to Concurrency
 18. GUI Basics with JavaFX
@@ -41,5 +41,5 @@ Table of Contents
 33. RESTful Web Services With JAX-RS
 34. Introduction to Spring MVC Framework
 35. Introduction to Spring Security
-36.Build Automation with Gradle
+36. Build Automation with Gradle
 37. Java Technical Interviews
