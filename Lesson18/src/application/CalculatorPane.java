@@ -108,7 +108,12 @@ public abstract class CalculatorPane extends StackPane{
 	
 	// Constructor
 	public CalculatorPane(){
-		super();
+		super();		
+		String backgroundStyle = "-fx-background-color: lightblue;"
+		+ "-fx-background-radius: 30%;"
+		+ "-fx-background-inset: 5px;";
+		super.setStyle(backgroundStyle);
+		setStyle(backgroundStyle);
 	}
 	
 	// Define getter and setters

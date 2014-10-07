@@ -30,9 +30,6 @@ public class Calculator {
         return displayField.getText();
     } 
 
-	
-	
-	
       // Constructor  creates the components
       // and adds the to the frame using combination of 
       // Borderlayout and Gridlayout

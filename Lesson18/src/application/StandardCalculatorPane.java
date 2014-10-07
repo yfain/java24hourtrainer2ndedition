@@ -22,6 +22,11 @@ public class StandardCalculatorPane extends CalculatorPane{
   	  	windowContent.setPadding(new Insets(5));
   	  	windowContent.setHgap(5);
   	  	windowContent.setVgap(5);
+  	  	 	
+  	String backgroundStyle = "-fx-background-color: lightblue;"
+  	+ "-fx-background-radius: 30%;"
+  	+ "-fx-background-inset: 5px;";
+  	windowContent.setStyle(backgroundStyle);
   	  	
   	  		// Create the display field and set the corresponding constraints
   	  	displayField = new TextField();

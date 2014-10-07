@@ -1,6 +1,7 @@
 public class TestStackTrace {
 	TestStackTrace()    
 	{
+	   // Produces thre line stack trace		
        divideByZero();
     }
 	
