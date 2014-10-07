@@ -1,14 +1,15 @@
-java24hourtrainer2ndedition
+Java 24 Hour Trainer 2nd Edition
 ===========================
 
 This repository has code samples for the 2-nd edition of my upcoming book Java 24-Hour Trainer (Wiley/Wrox). 
 The print version will be available in March 2015. 
 
 Table of Contents
-1. Introducing Java
-2. Integrated Development Environment
-3. Object-Oriented Programming with Java
-4. Class Methods and Constructors
+=======
+1. Introducing Java<br>
+2. Integrated Development Environment<br>
+3. Object-Oriented Programming with Java<br>
+4. Class Methods and Constructors<br>
 5. Java Syntax: Bits and Pieces
 6. Packages, Interfaces, and Encapsulation
 7. Programming with Abstract Classes and Interfaces
