@@ -28,9 +28,6 @@ public class MyDerbyClientServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-    
-		
-		
 	}
 
 
