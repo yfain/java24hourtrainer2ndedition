@@ -1,14 +1,14 @@
+public class Customer extends CommonData {
+	private String firstName;
+	private String product;
 
-public class Customer extends CommonData{
-	private String fName;
-	private String lName;
-	
-    public Customer (String fName, String lName){
-    	this.fName=fName;
-    	this.lName=lName;	
-    }
-    
-	void doSomething(){
-		System.out.println("Customer " + fName + " " +lName + ". In doSomething()");
+	public Customer(String fName, String lName) {
+		this.firstName = fName;
+		this.product = lName;
+	}
+
+	void doSomething() {
+		System.out.println("Customer " + firstName + " " + product
+				+ ". In doSomething()");
 	}
 }

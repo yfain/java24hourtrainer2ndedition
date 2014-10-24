@@ -1,4 +1,4 @@
 
 public class Customer {
-    public Customer (String a, String b){}
+    public Customer (String firstName, String lastName) {}
 }

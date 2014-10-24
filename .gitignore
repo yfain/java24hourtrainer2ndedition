@@ -9,5 +9,8 @@ Servers*
 ### OSX ###
 .DS_Store
 
-
+# Eclipse IDE
+.classpath
+.project
+eclipse-bin/
 
