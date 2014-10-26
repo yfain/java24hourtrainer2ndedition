@@ -2,9 +2,6 @@ import java.util.*;
 
 public class TestVariousCollections {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
@@ -19,7 +16,7 @@ public class TestVariousCollections {
 		
 		Vector bbb = new Vector();
 		
-		HashMap hm=new HashMap();
+		Map hm=new HashMap();
 		hm.put("customer", new Customer("John", "Smith")); 
 		hm.put("order", new Order());
 	}

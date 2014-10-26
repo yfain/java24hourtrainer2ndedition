@@ -1,4 +1,5 @@
 import java.util.Hashtable;
+import java.util.Map;
 
 public class TestHashtable {
 	
@@ -8,7 +9,7 @@ public class TestHashtable {
 		Order order = new Order();
 		Portfolio portfolio = new Portfolio();
 		
-		Hashtable data = new Hashtable();
+		Map data = new Hashtable();
 		data.put("Customer", customer);
 		data.put("Order",order);
 		data.put("Portfolio", portfolio);
