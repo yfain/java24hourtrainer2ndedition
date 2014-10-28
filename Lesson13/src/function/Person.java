@@ -1,8 +1,8 @@
-package com.practicalJava.lesson15.function;
-
-import com.practicalJava.lesson15.tax.TaxFunction;
+package function;
 
 import java.util.function.BiFunction;
+
+import tax.TaxFunction;
 
 public class Person {
 	

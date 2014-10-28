@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-import com.practicalJava.lesson15.collections.Person;
+import collections.Person;
 
 public class TestCollectionsForEach {
 	

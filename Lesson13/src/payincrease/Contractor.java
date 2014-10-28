@@ -1,4 +1,4 @@
-package com.practicalJava.lesson15.payincrease;
+package payincrease;
 
 public class Contractor extends Person1{
 	  // some other code specific to Contractor goes here

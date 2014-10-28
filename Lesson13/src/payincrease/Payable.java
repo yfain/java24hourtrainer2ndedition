@@ -1,4 +1,4 @@
-package com.practicalJava.lesson15.payincrease;
+package payincrease;
 
 @FunctionalInterface
 public interface Payable {

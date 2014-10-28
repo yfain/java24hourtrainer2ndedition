@@ -1,4 +1,4 @@
-import com.practicalJava.lesson15.payincrease.*;
+import payincrease.*;
 
 public class TestPayIncreaseLambda1 {
 	

@@ -1,4 +1,4 @@
-package com.practicalJava.lesson15.collections;
+package collections;
 
 public class Person {
 	

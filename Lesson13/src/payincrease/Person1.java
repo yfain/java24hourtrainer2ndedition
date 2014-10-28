@@ -1,23 +1,17 @@
-package com.practicalJava.lesson15.payincrease;
+package payincrease;
 
-import com.practicalJava.lesson15.tax.TaxFunction;
+import tax.TaxFunction;
 
-public class Person {
+public class Person1 {
 	
 	private String name;
-	private char workerStatus;  // 'E' or 'C'
 
-	public Person (String name, char workerStatus){
+	public Person1 (String name){
 		this.name = name;
-		this.workerStatus=workerStatus;
 	}
 	
 	public String getName(){
 		return name;
-	}
-	
-	public char getWorkerStatus(){
-		return workerStatus;
 	}
 	
 	public boolean validatePayIncrease(Payable increaseFunction, int percent) {
