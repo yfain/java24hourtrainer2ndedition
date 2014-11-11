@@ -1,4 +1,4 @@
-package com.practicaljava.bounded;
+package bounded;
 
 public class TestGenericType {
 

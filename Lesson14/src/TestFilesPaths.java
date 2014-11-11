@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.StandardCopyOption.*;
 
 
 public class TestFilesPaths {
@@ -24,7 +26,7 @@ public class TestFilesPaths {
 		System.out.println("It's size is " + Files.size(sourceFilePath));
 		
 		// Copy the file from states.txt to states.bak
-		Files.copy(sourceFilePath, destFilePath);
+		Files.copy(sourceFilePath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
 		System.out.println("Copy completed. The backup file is at " + destFilePath.toAbsolutePath());		
 		
 		} catch(IOException ioe){

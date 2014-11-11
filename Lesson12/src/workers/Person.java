@@ -1,4 +1,4 @@
-package com.practicaljava.lesson14;
+package workers;
 
 abstract public class Person {
 	private String name;

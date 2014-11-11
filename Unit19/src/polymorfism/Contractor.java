@@ -1,16 +1,16 @@
-package com.practicaljava.lesson14;
+package polymorfism;
 
-public class Contractor extends Person {
+public class Contractor extends Person implements Payable {
 	
 	public Contractor(String name){
 		super(name);
 	}
 	public boolean increasePay(int percent) {
-		if(percent < INCREASE_CAP){
+		if(percent < Payable.INCREASE_CAP){
 			System.out.println("Increasing hourly rate by " + percent + "%. "+ getName()); 
 			return true;
 		} else {
-			System.out.println("Sorry, can't increase hourly rate by more than " + INCREASE_CAP + "%. "+ getName());
+			System.out.println("Sorry, can't increase hourly rate by more than " + Payable.INCREASE_CAP + "%. "+ getName());
 			return false;
 		}
 		

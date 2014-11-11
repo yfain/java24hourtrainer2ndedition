@@ -1,6 +1,6 @@
-package com.practicaljava.lesson14;
+package polymorfism;
 
-public class Employee extends Person{
+public class Employee extends Person  implements Payable{
 
 	public Employee(String name){
 		super(name);

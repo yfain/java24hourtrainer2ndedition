@@ -3,7 +3,7 @@ class TestTax{
             Tax   t = new Tax(); // creating an instance
 
             // assigning the values to class members  
-            t.grossIncome= 50000;  
+            t.grossIncome= 60000;  
             t.dependents= 2;
             t.state= "NJ";
                              
