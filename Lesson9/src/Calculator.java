@@ -31,7 +31,7 @@ public class Calculator {
     } 
 
       // Constructor  creates the components
-      // and adds the to the frame using combination of 
+      // and adds them to the frame using combination of 
       // Borderlayout and Gridlayout
 
   Calculator(){
@@ -65,7 +65,7 @@ public class Calculator {
 	  buttonPoint = new JButton(".");
 	  buttonEqual=new JButton("=");
 
-	 // Create the panel with the GridLayout with 12 buttons � 
+	 // Create the panel with the GridLayout with 12 buttons 
         //10 numeric ones, period, and the equal sign   
 
 		  p1 = new JPanel();

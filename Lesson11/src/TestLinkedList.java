@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 
 public class TestLinkedList {
@@ -6,7 +7,7 @@ public class TestLinkedList {
 
 	public static void main(String[] args) {
 		
-		LinkedList passengerList = new LinkedList();
+		List passengerList = new LinkedList();
 		
 		passengerList.add("Alex Smith");
 		passengerList.add("Mary Lou");

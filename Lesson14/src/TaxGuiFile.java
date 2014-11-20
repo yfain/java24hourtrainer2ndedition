@@ -1,5 +1,7 @@
 import java.awt.event.*;
+
 import javax.swing.*;
+
 import java.awt.GridLayout;
 import java.io.FileInputStream;
 import java.io.BufferedReader;
@@ -92,26 +94,18 @@ public class TaxGuiFile extends JFrame {
         states.add("Select State");
         
         try (FileInputStream myFile = new FileInputStream("states.txt");
-             InputStreamReader inputStreamReader=
-                        new InputStreamReader(myFile, "UTF8");
-             BufferedReader reader =  new BufferedReader(inputStreamReader);){
-    	
-          String nextLine;
-          boolean eof = false;
-          while (!eof) {
-        	  nextLine = reader.readLine();
-        	   if (nextLine == null){
-                   eof = true;  
-        	   } else {
-                   // Populate the model	
-                   states.add(nextLine);
-        	   }  
-          }
-          
-        }catch (IOException e){
-            txtStateTax.setText("Can't read states.txt");
-        }
-
+                InputStreamReader inputStreamReader=
+                           new InputStreamReader(myFile, "UTF8");
+                BufferedReader reader =  new BufferedReader(inputStreamReader);){
+       	
+	        String stateName;
+			while ( (stateName = reader.readLine()) != null ){
+				states.add(stateName);
+			}
+             
+           }catch (IOException ioe){
+               txtStateTax.setText("Can't read states.txt: " + ioe.getMessage());
+           }
     }
 
     public static void main(String args[]){

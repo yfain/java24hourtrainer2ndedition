@@ -30,7 +30,7 @@ class FileDownload{
 
     // Read a remote file and save it in the local one
     int data;
-    System.out.println("Starting the dounload from " + args[0]);
+    System.out.println("Starting the download from " + args[0]);
     while((data=in.read())!=-1){
          fOut.write(data);
     }  

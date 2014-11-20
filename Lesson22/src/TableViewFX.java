@@ -1,4 +1,3 @@
-
 import javafx.application.Application;
 import javafx.scene.control.TableView;
 import javafx.stage.Stage;

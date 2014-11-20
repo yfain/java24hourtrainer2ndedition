@@ -1,4 +1,4 @@
-import com.practicalJava.lesson15.function.Person;
+import function.Person;
 
 import java.util.Arrays;
 import java.util.List;
