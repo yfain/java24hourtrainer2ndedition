@@ -1,4 +1,4 @@
-/*
+
 import javax.jms.*;
 
 import com.sun.messaging.ConnectionFactory;
@@ -27,4 +27,3 @@ public class DirectMessageSender{
 	 } 
  }		
 }
-*/
