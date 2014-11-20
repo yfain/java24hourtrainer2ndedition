@@ -97,12 +97,6 @@ public class TicTacToeController {
        second.getStyleClass().add("winning-button");
        third.getStyleClass().add("winning-button");
 
-	    /*
-	   first.setStyle("-fx-background-color: radial-gradient( radius 100%, white, lightyellow, lawngreen); -fx-text-fill: red;");
-	   second.setStyle("-fx-background-color: radial-gradient( radius 100%, white, lightyellow, lawngreen); -fx-text-fill: red;");
-	   third.setStyle("-fx-background-color: radial-gradient( radius 100%, white, lightyellow, lawngreen); -fx-text-fill: red;");
-	     */      
-
    }
    
    public void menuClickHandler(ActionEvent evt){
@@ -120,6 +114,5 @@ public class TicTacToeController {
 			
 			isFirstPlayer = true;
 		}
-   }
-   
+   }  
 }
