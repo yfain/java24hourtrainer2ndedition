@@ -1,7 +1,6 @@
 package application;
 	
 import javafx.application.Application;
-<<<<<<< HEAD
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -198,7 +197,7 @@ public class Main extends Application {
 		// Create a GridPane as the root layout node
 		GridPane window = new GridPane();
 		// Create the scene and set its style
-		Scene scene = new Scene(window, 500, 350, Color.GREY);
+		Scene scene = new Scene(window, 500, 350, Color.TRANSPARENT);
 		scene.getStylesheets()
 		.add(getClass().getResource("calculator.css")
 		.toExternalForm());				
@@ -299,29 +298,3 @@ public class Main extends Application {
 
 }
 
-=======
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.paint.Color;
-
-
-public class Main extends Application {
-	@Override
-	public void start(Stage primaryStage) {
-		try {
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setScene(scene);
-			primaryStage.show();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public static void main(String[] args) {
-		launch(args);
-	}
-}
->>>>>>> upstream/master

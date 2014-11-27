@@ -1,4 +1,4 @@
-/*
+
 import javax.jms.*;
 
 import com.sun.messaging.ConnectionFactory;
@@ -21,14 +21,9 @@ public class DirectMessageSender{
 	          // Send msg to buy 200 shares of IBM at market price	      
 	          producer.send(ordersQueue,"IBM 200 Mkt");
 	          
-	          System.out.println("Placed an order to purchase 200 shares of IBM to TradingOrdersQueue");
-	          
-	          
-	          
-	          
+	          System.out.println("Sucsessfully placed to TradingOrdersQueue an order to purchase 200 shares of IBM");
 	 } catch (JMSException e){
 	           System.out.println("Error: " + e.getMessage());
 	 } 
  }		
 }
-*/

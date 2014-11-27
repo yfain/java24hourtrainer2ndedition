@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/eclipse-jee-luna-R-win32/eclipse/plugins/org.eclipse.fx.ide.css.jfx8_1.0.0.201407180702.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

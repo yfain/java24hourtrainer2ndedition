@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+#chocolat {
+    -fx-background-color: #702510;
+    -fx-font-family: Helvetica;
+  	-fx-font-size: 18px;
+    -fx-background-radius: 50;
+    -fx-text-fill: yellow;
+}
+
+.text-field {
+    -fx-border-color: transparent;
+    -fx-background-radius: 50;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-control-inner-background;
+}
+
+
+/*
+.root {
+-fx-border-radius: 30;
+-fx-border-width:5;
+-fx-border-color:blue;
+}
+
+*/
+
+
+
+
+/*
+
+.menu {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-bar {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-bar .label{
+  -fx-background-color: grey;
+  -fx-text-fill: yellow;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.context-menu {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+.menu-item {
+  -fx-background-color: grey;
+  -fx-font-family: Helvetica;
+  -fx-font-size: 18px;
+}
+
+*/
+
+/* From caspian.css
+.button {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; // 2 10 3 10 
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.text-field {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 3, 2, 2;
+    -fx-padding: 0.25em 0.416667em  0.333333em 0.416667em; // 3 5 4 5 
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-cursor: text;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: -0.4, 1, 2;
+    -fx-background-radius: 3.4, 2, 2;
+    -fx-prompt-text-fill: transparent;
+}
+
+.text-field:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+*/
+
+
+
+ 
