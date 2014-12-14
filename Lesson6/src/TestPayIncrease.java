@@ -1,7 +1,7 @@
 import com.practicaljava.lesson6.*;
 
 
-public class TestPayIncease {
+public class TestPayIncrease {
 
 	/**
 	 * @param args

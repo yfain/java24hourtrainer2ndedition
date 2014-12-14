@@ -1,6 +1,6 @@
 import com.practicaljava.lesson6.*;
 
-public class TestPayInceasePoly {
+public class TestPayIncreasePoly {
 
 	public static void main(String[] args) {
 
