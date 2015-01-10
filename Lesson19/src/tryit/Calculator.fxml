@@ -8,7 +8,7 @@
 
 <BorderPane xmlns="http://javafx.com/javafx/8" 
        xmlns:fx="http://javafx.com/fxml/1" 
-       fx:controller="solution.CalculatorController">
+       fx:controller="tryit.CalculatorController">
        
    <top>
       <TextField fx:id="displayField" BorderPane.alignment="CENTER" />

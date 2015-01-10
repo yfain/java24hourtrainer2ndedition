@@ -1,4 +1,4 @@
-package solution;
+package tryit;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

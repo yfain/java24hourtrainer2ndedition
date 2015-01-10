@@ -1,4 +1,4 @@
-package solution;
+package tryit;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -44,6 +44,11 @@ public class CalculatorController {
 	    	  lastOperation = "+";
 	    	  addNumbers();
 	    	  break;	  
+	    case "=":
+	    	  if ("+".equals(lastOperation)){
+	    		  addNumbers(); 
+	    	  }
+	    	  break;
 	  }  	  
   }
   
