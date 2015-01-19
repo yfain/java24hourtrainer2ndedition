@@ -6,6 +6,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
+<!-- At the time of this writing E(fx)clipse has a bug that mistakenly
+     marks the event handlers with errors "The controller 'CalculatorController' has no event slot 
+ 'buttonClickHandler'" unless the event handler is marked with @FXML in controller. The code works fine though. I've submitted a bug:
+ https://bugs.eclipse.org/bugs/show_bug.cgi?id=457825
+
+ -->
+
 <BorderPane xmlns="http://javafx.com/javafx/8" 
        xmlns:fx="http://javafx.com/fxml/1" 
        fx:controller="tryit.CalculatorController">
