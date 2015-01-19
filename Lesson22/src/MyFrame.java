@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
@@ -41,7 +42,7 @@ public class MyFrame  extends JFrame implements TableModelListener{
  class MyTableModel extends AbstractTableModel {
 	    // The data for JTable should be here
 	
-		ArrayList<Order> myData = new ArrayList<Order>();
+		List<Order> myData = new ArrayList<>();
 		String[] orderColNames = { "Order ID",   "Symbol", 
                 "Quantity", "Price"};
 
