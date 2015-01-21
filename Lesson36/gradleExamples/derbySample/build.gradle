@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName="EmployeeList"
+
+repositories{
+   mavenCentral()	
+}
+
+dependencies {
+   compile 'org.apache.derby:derbyclient:10+'
+}
+
+jar {
+   from configurations.compile.collect {zipTree it}
+
+   manifest {attributes 'Main-Class': 'EmployeeList'
+  }
+}
+
+task showMeCache << {
+  configurations.runtime.each { println it }
+}
+

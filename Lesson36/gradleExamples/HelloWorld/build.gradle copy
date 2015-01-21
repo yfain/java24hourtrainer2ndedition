@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName="hello.HelloWorld"
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'hello.HelloWorld'
+  }
+}
+
+sourceSets{
+   main{
+     java{
+        srcDirs=['src']
+        output.classesDir='bin'
+     }
+   }
+}
+
+libsDirName='../libs'   
