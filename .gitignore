@@ -2,6 +2,7 @@
 .metadata*
 *.html
 bin*
+.gradle
 RemoteSystems*
 *.jar
 Servers*

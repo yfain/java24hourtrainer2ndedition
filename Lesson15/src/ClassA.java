@@ -3,7 +3,7 @@ class ClassA {
  
   public static void main(String args[]){
     
-	  Employee emp = new Employee();
+	Employee emp = new Employee();
     emp.lName = "John";
     emp.fName = "Smith"; 
     emp.salary = 50000;
