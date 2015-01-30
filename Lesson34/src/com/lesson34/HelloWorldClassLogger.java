@@ -8,7 +8,7 @@ public class HelloWorldClassLogger {
 	//		Logger.getLogger("com.lesson34.HelloWorldClassLogger");
 	
 	private static Logger helloLogger = 		
-			Logger.getLogger(HelloWorldClassLogger.class.getPackage());
+			Logger.getLogger(HelloWorldClassLogger.class.getPackage().getName());
 	
 	public static void main(String[] args) {
 		
