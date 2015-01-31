@@ -23,13 +23,16 @@ public class ShoppingCartServlet extends HttpServlet {
 
 		Cookie[] cookies = request.getCookies();
 		
-		for (int i=0; i < cookies.length; i++){
+		if (cookies != null){
+			
+ 		   for (int i=0; i < cookies.length; i++){
 			  Cookie currentCookie = cookies[i];
 			  String name = currentCookie.getName();
 			  String value = currentCookie.getValue();
 			  
 			  System.out.println("Received the cookie " + name + "=" + value);
 			}
+		}
 		
 		// Get or create a session object
 		HttpSession session = request.getSession(true);
