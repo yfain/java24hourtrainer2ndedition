@@ -1,5 +1,7 @@
 .button{
-    -fx-focus-color: transparent;
+ /*   -fx-focus-color: transparent; */
+ /*	-fx-focus-color: inherit; */
+ /*	-fx-focus-color: initial; */
     -fx-background-insets: -1, 0, 1, 1;
     -fx-font-weight: bold;
     -fx-font-size: 36;

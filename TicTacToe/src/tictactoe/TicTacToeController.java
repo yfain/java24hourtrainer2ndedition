@@ -24,6 +24,7 @@ public class TicTacToeController {
 	
    private boolean isFirstPlayer = true;
    
+   @FXML
    public void buttonClickHandler(ActionEvent evt){
 		 
 		Button clickedButton = (Button) evt.getTarget();
@@ -105,6 +106,7 @@ public class TicTacToeController {
 
    }
    
+  @FXML
    public void menuClickHandler(ActionEvent evt){
 		MenuItem clickedMenu = (MenuItem) evt.getTarget();
 		String menuLabel = clickedMenu.getText();
@@ -115,7 +117,9 @@ public class TicTacToeController {
 			
 			buttons.forEach(btn -> {
 				((Button) btn).setText("");
-				 btn.getStyleClass().remove("winning-button");
+				//System.out.println(btn.getStyleClass());
+				//if ("button winning-button".equals(btn.getStyleClass().toString()))
+				btn.getStyleClass().remove("winning-button");
 			});
 			
 			isFirstPlayer = true;
