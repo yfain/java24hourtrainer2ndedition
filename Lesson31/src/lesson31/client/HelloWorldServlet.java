@@ -12,16 +12,19 @@ import javax.servlet.http.HttpServletResponse;
 
 import lesson31.ejb.HelloWorldBean;
 import lesson31.ejb.HelloWorldLocal;
+import lesson31.ejb.StockServerBean;
 
 @WebServlet(urlPatterns = { "/HelloWorldServlet" })
 public class HelloWorldServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	@EJB HelloWorldBean myBean; 
+	//@EJB HelloWorldBean myBean;
+	@EJB StockServerBean myBean;
 	   
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		out.println(myBean.sayHello());	
+		//out.println(myBean.sayHello());
+		out.println(myBean.getQuote("AMZN"));
 		
 	}
 
